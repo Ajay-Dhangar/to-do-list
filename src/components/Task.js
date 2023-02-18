@@ -4,7 +4,7 @@ function Task(props) {
   const { title, status, desc, createdOn } = props.task;
 
   return (
-    <div>
+    <div className="demo">
       <h3>{title}</h3>
       <span onClick={() => props.setStatus(props.index)}>
         {status ? "Done" : "Not Done"}

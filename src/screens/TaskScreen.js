@@ -41,9 +41,10 @@ function TaskScreen() {
 
   return (
     <div>
-      <h6>Add New Task:</h6>
+      <h3>Add New Task:</h3>
 
       <form
+        className="add-new"
         onSubmit={(e) => {
           e.preventDefault();
           setTaskList([...taskList, newTask]);
@@ -58,7 +59,8 @@ function TaskScreen() {
           }}
           value={newTask.title}
         />
-
+        <br />
+        <br />
         <input
           type={"text"}
           placeholder={"Add Description"}
@@ -67,16 +69,24 @@ function TaskScreen() {
           }}
           value={newTask.desc}
         />
-
+        <br />
+        <br />
         <button type="submit">Add Task</button>
       </form>
 
       {taskList.map(function (task, index) {
-        return <Task task={task} key={index} setStatus={function(index) {
-          let tempTaskList = [...taskList];
-          tempTaskList[index].status = !tempTaskList[index].status;
-          setTaskList(tempTaskList)
-        }} index={index}/>;
+        return (
+          <Task
+            task={task}
+            key={index}
+            setStatus={function (index) {
+              let tempTaskList = [...taskList];
+              tempTaskList[index].status = !tempTaskList[index].status;
+              setTaskList(tempTaskList);
+            }}
+            index={index}
+          />
+        );
       })}
     </div>
   );

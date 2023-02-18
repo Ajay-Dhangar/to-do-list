@@ -1,20 +1,16 @@
-import './App.css';
-import TaskScreen from './screens/TaskScreen';
+import "./App.css";
+import TaskScreen from "./screens/TaskScreen";
 
 function App() {
   return (
-    <div>
-      <h1>Welcome to To Do List Application.</h1>
-      <TaskScreen /> {/* This is like a function call */}
+    <div className="main">
+      <h1> Welcome to To Do List Application. </h1> <TaskScreen />{" "}
+      {/* This is like a function call */}{" "}
     </div>
   );
 }
 
 export default App;
-
-
-
-
 
 // What is a React Component?
 

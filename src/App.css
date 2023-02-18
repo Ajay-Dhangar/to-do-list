@@ -1,7 +1,24 @@
 .App {
   text-align: center;
 }
-
+.main {
+  margin: 20px;
+}
+.demo {
+  margin-left: 55px;
+}
+.add-new {
+  border: 1px solid #000;
+  width: 400px;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+  color: #f7fdff;
+  text-shadow: 2px 2px #000;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
