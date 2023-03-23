@@ -1,29 +1,65 @@
 .App {
   text-align: center;
 }
-.main {
-  margin: 20px;
-}
-.demo {
-  margin-left: 55px;
-}
-.add-new {
-  border: 1px solid #000;
-  width: 400px;
-  padding: 20px;
-}
-h1 {
-  text-align: center;
-  font-family: serif;
-  font-weight: bold;
-  color: #f7fdff;
-  text-shadow: 2px 2px #000;
-}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.mt-5 {
+  margin-top: 10px;
+  margin-left: 10%;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.form-group {
+  font-size: 22px;
+  border-radius: 30px;
+  background-color: rgb(255, 51, 0);
+  padding: 20px;
+  margin-right: 10%;
+  margin-top: 15px;
+  color: #fff;
+}
+.form-control {
+  font-size: 22px;
+  margin-left: 20px;
+}
+.btn {
+  margin-top: 20px;
+}
+.btn-primary {
+  background-color: rgb(96, 96, 231);
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff;
+}
+.list-group {
+  background-color: greenyellow;
+  padding: 30px;
+  margin-right: 10%;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.mx-2 {
+  color: #fff;
+  background-color: green;
+  margin-left: 20px;
+}
+.btn-danger {
+  color: #fff;
+  background-color: red;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.ml-3 {
+  margin-left: 30px;
+  width: 20px;
+  height: 20px;
+  margin-top: auto;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
