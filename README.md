@@ -1,7 +1,9 @@
 # to-do-list
-Workshop on Master React in Web Development by Shantanu Shubham (SDE @Amazon)
 
-![to-do-list](https://user-images.githubusercontent.com/99037494/210399529-df3f6bdf-e338-4181-9f77-6ed833236340.png)
+Workshop on JavaScript Mastery for React in Web Development by Ajay Dhangar ([JavaScript Mastery](https://github.com/JavaScript-Mastery))
+
+![To Do App](https://user-images.githubusercontent.com/99037494/227110486-38029685-29a8-4ccb-8f39-3a38e2c40c52.png)
+
 
 Live [Demo](https://to-do-list-ajay.vercel.app/)
 
