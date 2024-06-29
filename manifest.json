@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "ToDo Extension JS",
+    "name": "ToDoList",
     "version": "1.0",
-    "description": "Simple ToDo Extension is JS for managing day to day tasks...",
+    "description": "This extension will help you to manage your tasks",
     "permissions": [
       "storage"
     ],
@@ -17,6 +17,7 @@
         "resources": ["index.html"],
         "matches": ["<all_urls>"]
       }
-    ]
+    ],
+    "author": "Ajay-Dhangar"
   }
   
