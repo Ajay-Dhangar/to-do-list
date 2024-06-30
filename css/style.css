@@ -11,16 +11,26 @@
   background: #1940a5;
 }
 body{
-  height: 80vh;
-  background-image: url(bg.jpg);
+  height: 100vh;
+  background: url('../assets/bg.jpg') no-repeat center/cover;
+  image-rendering: pixelated;
+  display: flex;
+  justify-content: center;
+  background-attachment: fixed;
+  background-position: center;    
 }
 .wrapper{
   max-width: 480px;
   margin: 5px auto;
-  padding: 19px;
-  border-radius: 4px;
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
-  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f2f2f2 0%, transparent 50%, transparent 100%);
+  box-shadow: 0 0 10px #262626;
+  border-right: 1px solid #cccccc81;
+  border-bottom: 1px solid #cccccc81;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+
 }
 .wrapper header{
   font-size: 30px;
@@ -69,7 +79,8 @@ body{
   pointer-events: auto;
 }
 .wrapper .todoList{
-  max-height: 180px;
+  max-height: 170px;
+  min-height: 100px;
   overflow-y: auto;
   scrollbar-width: none;
   padding: 0 15px 0 0;
@@ -94,7 +105,7 @@ body{
   right: -45px;
   top: 50%;
   transform: translateY(-50%);
-  background: #e74c3c;
+  background: hsl(6, 78%, 57%);
   width: 45px;
   text-align: center;
   color: #fff;
@@ -130,6 +141,10 @@ hr {
   height: 2px;
   background-color: #ccc;
 }
+.footer{
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
 .footer button{
   padding: 6px 10px;
   border-radius: 3px;
@@ -160,9 +175,11 @@ hr {
 
 .close-icon i {
   font-size: 24px;
-  color: #333;
-}
-.close-icon i:hover{
- color: #e74c3c;
+  color: #ffff00;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 5px #000;
 }
 
+.close-icon i:hover{
+  color: #ff0000;
+}
