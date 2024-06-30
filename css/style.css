@@ -12,7 +12,7 @@
 }
 body{
   height: 100vh;
-  background: url('./bg.jpg') no-repeat center/cover;
+  background: url('../assets/bg.jpg') no-repeat center/cover;
   image-rendering: pixelated;
   display: flex;
   justify-content: center;
@@ -105,7 +105,7 @@ body{
   right: -45px;
   top: 50%;
   transform: translateY(-50%);
-  background: #e74c3c;
+  background: hsl(6, 78%, 57%);
   width: 45px;
   text-align: center;
   color: #fff;
@@ -175,9 +175,11 @@ hr {
 
 .close-icon i {
   font-size: 24px;
-  color: #333;
-}
-.close-icon i:hover{
- color: #e74c3c;
+  color: #ffff00;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 5px #000;
 }
 
+.close-icon i:hover{
+  color: #ff0000;
+}
